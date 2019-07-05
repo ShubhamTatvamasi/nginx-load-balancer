@@ -7,5 +7,5 @@ docker-compose up -d
 
 Test
 ```bash
-curl localhost
+while sleep 1; do curl localhost; done
 ```
